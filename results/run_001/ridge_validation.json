@@ -1,0 +1,25 @@
+{
+  "trials": [
+    {
+      "alpha": 0.1,
+      "validation_rmse": 2.2226888245395253
+    },
+    {
+      "alpha": 1.0,
+      "validation_rmse": 2.121026964820624
+    },
+    {
+      "alpha": 10.0,
+      "validation_rmse": 1.9122064851455989
+    },
+    {
+      "alpha": 100.0,
+      "validation_rmse": 1.7634922251196856
+    },
+    {
+      "alpha": 1000.0,
+      "validation_rmse": 1.6749116616479698
+    }
+  ],
+  "selected_alpha": 1000.0
+}

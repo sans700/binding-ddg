@@ -1,0 +1,28 @@
+{
+  "raw_rows": 7085,
+  "excluded": {
+    "nonexact_assumed_or_missing_temperature": 2179,
+    "nonexact_or_missing_affinity": 474
+  },
+  "retained_before_dedup": 4432,
+  "retained_unique": 3998,
+  "collapsed_replicates": 434,
+  "groups": 72,
+  "split_seed": 20261112,
+  "raw_sha256": "76f8e60d09eaa4f05fb265063886859a86895c0b2fb225e31fe82928a883972d",
+  "split_counts": {
+    "train": 3010,
+    "validation": 510,
+    "test": 478
+  },
+  "split_group_counts": {
+    "train": 50,
+    "validation": 11,
+    "test": 11
+  },
+  "antibody_counts": {
+    "train": 343,
+    "validation": 149,
+    "test": 17
+  }
+}

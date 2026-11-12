@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "unit_test_count": 6,
+  "train_only_preprocessing": true,
+  "no_pdb_overlap": true,
+  "no_metadata_group_overlap": true,
+  "checkpoint_reload_matches_saved_predictions": true,
+  "reported_test_metrics_match_predictions": true,
+  "records": 3998,
+  "raw_sha256": "76f8e60d09eaa4f05fb265063886859a86895c0b2fb225e31fe82928a883972d",
+  "max_reload_prediction_difference": 7.152557373046875e-07
+}

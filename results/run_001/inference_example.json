@@ -1,0 +1,10 @@
+{
+  "predicted_ddg_kcal_mol": 0.8280057370155663,
+  "seed_predictions": [
+    1.0653416805856688,
+    0.8375930313377309,
+    0.5810824991232995
+  ],
+  "convention": "negative favors tighter binding; positive favors weaker binding",
+  "scope": "mutation-only exploratory model; no antigen coordinates or sequence embeddings; not experimental validation"
+}

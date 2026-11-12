@@ -1,0 +1,21 @@
+{
+  "epochs": 200,
+  "patience": 25,
+  "threads": 2,
+  "model": "451 -> 64 -> 32 -> 1 MLP, ReLU and dropout 0.1",
+  "optimizer": "AdamW",
+  "lr": 0.001,
+  "weight_decay": 0.001,
+  "batch_size": 128,
+  "seeds": [
+    11,
+    22,
+    33
+  ],
+  "selection": "validation early stopping; primary ensemble of all three seeds fixed before testing",
+  "trainable_parameters": 31041,
+  "torch_version": "2.7.1+cu126",
+  "numpy_version": "2.4.1",
+  "device": "cpu",
+  "elapsed_seconds": 28.753199320286512
+}

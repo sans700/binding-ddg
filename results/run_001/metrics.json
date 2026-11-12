@@ -1,0 +1,133 @@
+{
+  "train": {
+    "mean": {
+      "n": 3010,
+      "rmse": 2.2988796580133126,
+      "mae": 1.6289103510171377,
+      "pearson": null,
+      "spearman": null,
+      "r2": 0.0
+    },
+    "ridge": {
+      "n": 3010,
+      "rmse": 2.0190980403492778,
+      "mae": 1.3923900482773306,
+      "pearson": 0.5193982668637595,
+      "spearman": 0.4402755353151362,
+      "r2": 0.22859519482341195
+    },
+    "mlp_ensemble": {
+      "n": 3010,
+      "rmse": 1.8943219425228832,
+      "mae": 1.2690031024297115,
+      "pearson": 0.5978145322140952,
+      "spearman": 0.5659255122456888,
+      "r2": 0.3209916656392555
+    }
+  },
+  "validation": {
+    "mean": {
+      "n": 510,
+      "rmse": 1.780669246477869,
+      "mae": 1.4344985459166115,
+      "pearson": null,
+      "spearman": null,
+      "r2": -0.0018187504807187782
+    },
+    "ridge": {
+      "n": 510,
+      "rmse": 1.6749116616479698,
+      "mae": 1.2940408732325852,
+      "pearson": 0.3415496616318425,
+      "spearman": 0.3535563979927796,
+      "r2": 0.11364754426993284
+    },
+    "mlp_ensemble": {
+      "n": 510,
+      "rmse": 1.6826467847551698,
+      "mae": 1.2993815669431248,
+      "pearson": 0.32715931854151586,
+      "spearman": 0.3129550466257282,
+      "r2": 0.10544188553887146
+    }
+  },
+  "test": {
+    "mean": {
+      "n": 478,
+      "rmse": 2.593415767472714,
+      "mae": 1.711180195558624,
+      "pearson": null,
+      "spearman": null,
+      "r2": -0.045295243896881665,
+      "cluster_bootstrap": {
+        "groups": 11,
+        "repeats": 1000,
+        "rmse_95_percent_interval": [
+          1.2268390741126172,
+          4.11852796408101
+        ],
+        "note": "Grouped resampling interval on this fixed test set, not a universal generalization guarantee"
+      }
+    },
+    "ridge": {
+      "n": 478,
+      "rmse": 2.476101357593648,
+      "mae": 1.608652307525344,
+      "pearson": 0.47863070333817437,
+      "spearman": 0.4562575062536364,
+      "r2": 0.04713468847273927,
+      "cluster_bootstrap": {
+        "groups": 11,
+        "repeats": 1000,
+        "rmse_95_percent_interval": [
+          1.118270849249735,
+          3.9391706913202857
+        ],
+        "note": "Grouped resampling interval on this fixed test set, not a universal generalization guarantee"
+      }
+    },
+    "mlp_ensemble": {
+      "n": 478,
+      "rmse": 2.478161790372488,
+      "mae": 1.5918002379828178,
+      "pearson": 0.5113401155497586,
+      "spearman": 0.5487225723883628,
+      "r2": 0.045548217240346744,
+      "cluster_bootstrap": {
+        "groups": 11,
+        "repeats": 1000,
+        "rmse_95_percent_interval": [
+          1.120056914395196,
+          3.956471983730438
+        ],
+        "note": "Grouped resampling interval on this fixed test set, not a universal generalization guarantee"
+      }
+    }
+  },
+  "antibody_test_diagnostic": {
+    "mean": {
+      "n": 17,
+      "rmse": 1.3085236750692322,
+      "mae": 1.150065870715362,
+      "pearson": null,
+      "spearman": null,
+      "r2": -8.766542397720123e-05
+    },
+    "ridge": {
+      "n": 17,
+      "rmse": 1.2611994303600191,
+      "mae": 1.123320784430486,
+      "pearson": 0.2796205175349078,
+      "spearman": 0.2932515337423313,
+      "r2": 0.07094284284574726
+    },
+    "mlp_ensemble": {
+      "n": 17,
+      "rmse": 1.3057405824202781,
+      "mae": 1.1476032248545638,
+      "pearson": 0.16803876961358102,
+      "spearman": 0.24171779141104296,
+      "r2": 0.004161973692753729
+    }
+  }
+}
